@@ -690,9 +690,6 @@ public final class CurrencyDTO implements Serializable {
     /** Venezuelan Bolívar. */
     public static final CurrencyDTO VEF = createCurrency("VEF", "Venezuelan Bolívar", null);
 
-    /** Hub Culture's Vet. */
-    public static final CurrencyDTO VET = createCurrency("VET", "Hub Culture's Vet", null, "VEN");
-
     /** Hub Culture's Ven. */
     public static final CurrencyDTO VEN = createCurrency("VEN", "Hub Culture's Ven", null, "XVN");
 
@@ -857,6 +854,51 @@ public final class CurrencyDTO implements Serializable {
 
     /** Polkadot. */
     public static final CurrencyDTO DOT = createCurrency("DOT", "Polkadot", null);
+
+        /** Spacemesh. */
+    public static final CurrencyDTO SMH = createCurrency("SMH", "Spacemesh", null);
+
+    /** Qubic. */
+    public static final CurrencyDTO QUBIC = createCurrency("QUBIC", "Qubic", null);
+
+    /** Kaspa. */
+    public static final CurrencyDTO KAS = createCurrency("KAS", "Kaspa", null);
+
+    /** Alephium. */
+    public static final CurrencyDTO ALPH = createCurrency("ALPH", "Alephium", null);
+
+    /** Dynex. */
+    public static final CurrencyDTO DNX = createCurrency("DNX", "Dynex", null);
+
+    /** Solana. */
+    public static final CurrencyDTO SOL = createCurrency("SOL", "Solana", null);
+
+    /** Goat. */
+    public static final CurrencyDTO GOAT = createCurrency("GOAT", "Goat", null);
+
+    /** Radiant. */
+    public static final CurrencyDTO RXD = createCurrency("RXD", "Radiant", null);
+
+    /** Cronos. */
+    public static final CurrencyDTO CRO = createCurrency("CRO", "Cronos", null);
+
+    /** Polygon. */
+    public static final CurrencyDTO POL = createCurrency("POL", "Polygon", null);
+
+    /** Near. */
+    public static final CurrencyDTO NEAR = createCurrency("NEAR", "Near", null);
+
+    /** Ergo. */
+    public static final CurrencyDTO ERGO = createCurrency("ERGO", "Ergo", null);
+
+    /** VeChain. */
+    public static final CurrencyDTO VET = createCurrency("VET", "VeChain", null);
+
+    /** Xelis. */
+    public static final CurrencyDTO XEL = createCurrency("XEL", "Xelis", null);
+
+    /** Flux. */
+    public static final CurrencyDTO FLUX = createCurrency("FLUX", "Flux", null);
 
     /** Code. */
     private final String code;

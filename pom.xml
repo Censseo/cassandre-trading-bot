@@ -169,7 +169,7 @@
 				</configuration>
 			</plugin>
 			<!-- GPG signing -->
-			<plugin>
+<!-- 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>3.2.7</version>
@@ -180,16 +180,16 @@
 						<goals>
 							<goal>sign</goal>
 						</goals>
-						<configuration>
+						<configuration> -->
 							<!-- Prevent `gpg` from using pinentry programs -->
-							<gpgArguments>
+<!-- 							<gpgArguments>
 								<arg>--pinentry-mode</arg>
 								<arg>loopback</arg>
 							</gpgArguments>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 	<!-- =========================================================================================================== -->

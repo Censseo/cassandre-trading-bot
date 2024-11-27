@@ -2,3 +2,5 @@ jitpack:
   configuration:
     maven:
       version: 3.6.3
+install:
+  - mvn install -Dgpg.skip -DskipTests
